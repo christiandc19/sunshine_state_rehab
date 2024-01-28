@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+.servicesMH {
+    width: 100%;
+    height: auto;
+    background: #678056;
+    padding: 3rem 0;
+}
+
+.servicesMH-content {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.servicesMH-left {
+    width: 500px;
+    margin: auto;
+}
+
+.servicesMH-left img {
+    width: 100%;
+}
+
+.servicesMH-right {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    text-align: left;
+}
+
+.servicesMH-right h1 {
+    color: rgb(255, 136, 0);
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.servicesMH-right h2 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Playfair', serif;
+    padding: .5rem 0;
+}
+
+.servicesMH-right p {
+    color: white;
+}
+
+.servicesMH-icon span {
+    color: rgb(255, 136, 0);
+}
+
+.servicesMH-icon {
+    padding: 1rem 0;
+}
+.servicesMH-btn button {
+    background-color: rgb(109, 64, 13);
+    color: white;
+    font-size: .8rem;
+    font-weight: bolder;
+    padding: .8rem 1rem;
+    border-radius: 5px;
+}
+
+.servicesMH-btn button:hover {
+    background-color: #054f4a;
+    color: white;
+}
+
+
+@media screen and (max-width: 940px) {
+    .servicesMH-content {
+        flex-wrap: wrap;
+    }
+
+    .servicesMH-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicesMH-left {
+        margin: auto;
+    }
+}

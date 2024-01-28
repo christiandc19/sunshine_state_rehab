@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+
+.servicesSA {
+    width: 100%;
+    height: auto;
+    background: #678056;
+}
+
+.servicesSA-content {
+    padding: 1rem 0;
+
+}
+
+.servicesSA-header {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.servicesSA .servicesSA-header h1 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.servicesSA .servicesSA-header h2 {
+    color: rgb(253, 146, 5);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Playfair', serif;
+}
+
+.servicesSA .servicesSA-header p {
+    font-size: 15px;
+    color: rgb(248, 243, 243);
+
+}
+
+.sa-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: -1px 1px 5px 5px rgba(0,0,0,0.1);}
+
+.sa-image img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.servicesSA h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.servicesSA p {
+    color: rgb(41, 39, 39);
+    font-size: 12px;
+    padding: .5rem;
+}
+
+.servicesSA-flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.servicesSA-flexItem {
+    text-align: center;
+    width: 25%;
+    height: auto;
+    background-color: rgba(214, 231, 212, 0.678);
+    border-radius: .5rem;
+}
+
+
+.servicesSA-btn {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.servicesSA-btn button {
+    background-color: white;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+}
+
+.servicesSA-btn button:hover {
+    background-color: #3a8b5c;
+    color: white;
+}
+
+@media screen and (max-width: 940px) {
+    .servicesSA-flex {
+        flex-wrap: wrap;
+    }
+
+    .servicesSA-flexItem {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .servicesSA-flexItem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .servicesSA .servicesSA-header h2 {
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        font-family: 'Playfair', serif;
+    }
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.BipolarDisorder {
+    width: 100%;
+    height: 80vh;
+    background: #05050581;
+    position: relative;
+  }
+  
+  .BipolarDisorder:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/mental-health-submenu-bg.webp') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+.BipolarDisorder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BipolarDisorder .BipolarDisorder-content {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    padding: 1rem;
+}
+
+.BipolarDisorder h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.BipolarDisorder h1 {
+    font-size: 2rem;
+}
+
+}

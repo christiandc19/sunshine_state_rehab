@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.wrapper1 {
+    background: #ffffff;
+}
+
+.wrapper-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.whatWeDo-header {
+    text-align: center;
+}
+
+.whatWeDo-header p {
+    font-size: 14px;
+}
+
+.wrapper-content-left {
+    width: 500px;
+    text-align: center;
+}
+
+.wrapper-content-left img {
+    width: 100%;
+}
+
+.wrapper-content-right {
+    width: 600px;
+    margin: auto;
+}
+
+
+.wrapper-content-right h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.wrapper-content-right h1 {
+    text-transform: uppercase;
+    color: rgb(253, 146, 5);
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+.wrapper-content-right p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width:1250px)  {
+    .wrapper-content-right {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .wrapper-content-right h1, .wrapper-content-right h2, .wrapper-content-right p {
+        text-align: center;
+    }
+
+    .wrapper-content-right h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:940px) {
+    .wrapper-content-left {
+        width: 100vw;
+    }
+    .wrapper-content-left img {
+        padding: 2rem;
+    }
+}
+

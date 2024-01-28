@@ -1,0 +1,70 @@
+
+
+.mission-section {
+    padding: 2rem 0;
+}
+
+.mission-section-content {
+    padding: 1rem;
+}
+
+.mission-section-header {
+    text-align: center;
+}
+
+.mission-section-header p {
+    text-align: justify;
+}
+
+.our-mission h1 {
+    padding: .5rem 0;
+}
+
+.our-mission p {
+    text-align: justify;
+}
+
+.our-mission-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.our-mission {
+    width: 50%;
+    margin: auto;
+}
+
+.our-mission-image {
+    width: 350px;
+    margin: auto;
+}
+
+.our-mission-image img {
+    width: 100%;
+}
+
+.mission-checklist {
+    display: flex;
+    gap: 1rem;
+}
+
+.mission-footer {
+    text-align: center;
+}
+
+
+@media screen and (max-width:940px) {
+    .our-mission-flex {
+        flex-wrap: wrap
+    }
+
+    .our-mission {
+        width: 100%;
+    }
+
+    .our-mission h1 {
+        text-align: center;
+    }
+}

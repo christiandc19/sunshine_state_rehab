@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+
+.top-flex {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgb(255, 255, 255);
+  margin: 3rem 5rem;
+}
+
+.top-flex-item {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(243, 239, 239, 0.336);
+  box-shadow: -1px 0px 15px -4px rgba(0,0,0,0.25);
+  padding: 1rem 3rem;
+}
+
+.top-flex-item:hover {
+  box-shadow: -1px 0px 15px -4px rgba(0, 0, 0, 0.452);
+}
+
+.top-flex-icon {
+  width: 200px;
+}
+
+.top-flex-icon img{
+  width: 100%;
+}
+
+.top-flex-text h1 {
+  font-size: 1rem;
+  color: #977ab3;
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.top-flex-text h2 {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.top-flex-text p {
+  font-size: 14px;
+  color: #131dc9;
+  text-align: left;
+  padding: 1.5rem 0;
+}
+
+.top-flex-text span {
+  position: absolute;
+  font-size: 20px;
+  padding-left: .5rem;
+  color: #131dc9;
+
+  
+}
+
+
+@media (max-width: 940px) {
+  .top-flex {
+    margin: 0 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+.mh-cards-header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.mh-cards-header h1 {
+  margin: 2rem auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mh-cards-header p {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 940px) {
+  .mh-card-wrap {
+    width: 100%;
+  }
+
+}
+
+
+
+/* Mental Health Thumbnails */
+
+.sa-thumbnail-wrap
+{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:space-around;
+  padding: 3rem 0;
+}
+
+.sa-thumbnails
+{
+  width:220px;
+  height:200px;
+  margin:10px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  color: white;
+  /* background-color: rgba(210, 200, 214, 0.702); */
+}
+
+.sa-thumbnails img
+{
+  height:100%;
+  width:100%;
+  border-radius: 10px;
+  /* opacity: 0.2; */
+}
+
+.centered h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1rem 0;
+  letter-spacing: 2px;
+}
+
+.centered button {
+  padding: .5rem 1.5rem;
+  background-color: rgba(152, 147, 147, 0.386);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.centered button:hover {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  border: none;
+}
+
+.centered {
+  width: 100%;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@300&display=swap');
+
+.wwa {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+.wwa-header {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.wwa-header h1 {
+    font-size: 1rem;
+    padding: 1rem;
+    color: #977ab3;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.wwa-header p {
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* cards */
+
+.wwa-cards-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    top: 10%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.card-icon1, .card-icon3 {
+    font-size: 6rem;
+    color: rgb(214, 113, 230);
+    padding: 1rem 0;
+}
+
+.card-icon2 {
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+/*  card 1 */
+
+.card1 {
+    margin-top: 1.5rem;
+    width: 450px;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(241, 237, 232, 0.980);
+  }
+  
+  .card1:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card1 h1 {
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Hebrew', serif;
+}
+
+.card1 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card1 h5 {
+    color: rgb(184, 88, 206);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/*  card 2 */
+
+.card2 {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(89, 8, 102, 0.98);
+  }
+  
+  .card2:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card2 h1 {
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Hebrew', serif;
+    color: white;
+}
+
+.card2 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.card2 h5 {
+    letter-spacing: 2px;
+    color: white;
+}
+
+/*  card 3 */
+
+.card3 {
+    margin-top: 1.5rem;
+    width: 450px;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(241, 237, 232, 0.980);
+  }
+  
+  .card3:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/sa-icon.png') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.card3 h1 {
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Hebrew', serif;
+}
+
+.card3 p {
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card3 h5 {
+    color: rgb(139, 85, 4);
+    letter-spacing: 2px;
+}
+
+.card h5:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width:940px) {
+    
+    .wwa-cards-contents {
+        flex-wrap: wrap;
+    }
+
+    .card3 {
+        margin-top: 0;
+    }
+
+    .card {
+        width: 100%;
+        height: 350px;
+    }
+
+}
