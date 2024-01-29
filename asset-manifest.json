@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/sunshine_state_rehab/static/css/main.489f12c2.css",
-    "main.js": "/sunshine_state_rehab/static/js/main.138f7583.js",
+    "main.css": "/sunshine_state_rehab/static/css/main.54bc3b18.css",
+    "main.js": "/sunshine_state_rehab/static/js/main.dfbb818f.js",
     "static/media/whoWeAre1-min.png": "/sunshine_state_rehab/static/media/whoWeAre1-min.0499eda9a482fe86ee30.png",
-    "static/media/wrapper1-min.jpg": "/sunshine_state_rehab/static/media/wrapper1-min.8a75c0160262435a886e.jpg",
     "static/media/contact-form-bg.jpg": "/sunshine_state_rehab/static/media/contact-form-bg.2ea6f6bf7feb72dbb2af.jpg",
     "static/media/top-flex-icon6.png": "/sunshine_state_rehab/static/media/top-flex-icon6.f522885e820c1a08ca0b.png",
     "static/media/group.webp": "/sunshine_state_rehab/static/media/group.719900976933c094a36f.webp",
@@ -15,7 +14,6 @@
     "static/media/alcoholic_man.webp": "/sunshine_state_rehab/static/media/alcoholic_man.1780ed4498f15e8e019a.webp",
     "static/media/top-flex-icon4.png": "/sunshine_state_rehab/static/media/top-flex-icon4.e2f5c7f394038a08837f.png",
     "static/media/treatment-plan.webp": "/sunshine_state_rehab/static/media/treatment-plan.e9d35102923ea241c885.webp",
-    "static/media/bg.jpg": "/sunshine_state_rehab/static/media/bg.9f0a2d92df7dd0a9491b.jpg",
     "static/media/dialectal.jpg": "/sunshine_state_rehab/static/media/dialectal.ec4d8b1709d8949c89d3.jpg",
     "static/media/top-flex-icon1.png": "/sunshine_state_rehab/static/media/top-flex-icon1.4e0695b48ad359e17768.png",
     "static/media/submenu-bg-jobs.webp": "/sunshine_state_rehab/static/media/submenu-bg-jobs.14d845dbe56379931777.webp",
@@ -34,10 +32,12 @@
     "static/media/top-flex-icon12.png": "/sunshine_state_rehab/static/media/top-flex-icon12.3753265dcbebc76c2244.png",
     "static/media/interpersonal.jpg": "/sunshine_state_rehab/static/media/interpersonal.585528585080b9c15704.jpg",
     "static/media/prescriptions_addict_woman.webp": "/sunshine_state_rehab/static/media/prescriptions_addict_woman.079cc285df6c02a2614b.webp",
+    "static/media/section-bg.jpg": "/sunshine_state_rehab/static/media/section-bg.37b1c5c020be9cc067a6.jpg",
     "static/media/landing_2.webp": "/sunshine_state_rehab/static/media/landing_2.4f8f049bb1e2aa9f9fb0.webp",
     "static/media/addiction-submenu-bg.webp": "/sunshine_state_rehab/static/media/addiction-submenu-bg.b96ae118d50f08a1f11a.webp",
     "static/media/top-flex-icon3.png": "/sunshine_state_rehab/static/media/top-flex-icon3.36c30cd7bbc0373ac5be.png",
     "static/media/sa-submenu-bg.webp": "/sunshine_state_rehab/static/media/sa-submenu-bg.69ed959ef22a224c2a33.webp",
+    "static/media/wrapper1-min.webp": "/sunshine_state_rehab/static/media/wrapper1-min.8edb4017c7cbb8699891.webp",
     "static/media/mh-mainmenu-bg-min.webp": "/sunshine_state_rehab/static/media/mh-mainmenu-bg-min.a0fef62bd73d712d214a.webp",
     "static/media/landing_3.webp": "/sunshine_state_rehab/static/media/landing_3.560b6c23e78b22a75222.webp",
     "static/media/menu-bg-mission.webp": "/sunshine_state_rehab/static/media/menu-bg-mission.62178b0289646dac4194.webp",
@@ -52,11 +52,11 @@
     "static/media/aetna.png": "/sunshine_state_rehab/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/sunshine_state_rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/sunshine_state_rehab/index.html",
-    "main.489f12c2.css.map": "/sunshine_state_rehab/static/css/main.489f12c2.css.map",
-    "main.138f7583.js.map": "/sunshine_state_rehab/static/js/main.138f7583.js.map"
+    "main.54bc3b18.css.map": "/sunshine_state_rehab/static/css/main.54bc3b18.css.map",
+    "main.dfbb818f.js.map": "/sunshine_state_rehab/static/js/main.dfbb818f.js.map"
   },
   "entrypoints": [
-    "static/css/main.489f12c2.css",
-    "static/js/main.138f7583.js"
+    "static/css/main.54bc3b18.css",
+    "static/js/main.dfbb818f.js"
   ]
 }
