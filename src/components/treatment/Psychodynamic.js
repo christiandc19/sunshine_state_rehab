@@ -1,6 +1,6 @@
 import React from 'react'
 import './Psychodynamic.css'
-import PSYCHODYNAMIC from "../../assets/psychodynamic.jpg";
+import PSYCHODYNAMIC from "../../assets/psychodynamic.webp";
 
 const Psychodynamic = () => {
   return (

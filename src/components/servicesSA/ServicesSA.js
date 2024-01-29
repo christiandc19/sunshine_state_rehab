@@ -45,7 +45,7 @@ const ServicesSA = () => {
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>    
                     <Link to="/prescriptions">
                     <div className="sa-image">
-                      <img src={Prescriptions} alt="Alcoholic Man" loading="lazy" />
+                      <img src={Prescriptions} alt="A man depressed addicted to Prescriptions" loading="lazy" />
                       <h1>Prescriptions Addiction</h1>
                     </div>
                   </Link>
@@ -57,7 +57,7 @@ const ServicesSA = () => {
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>    
                   <Link to="/xanax">
                     <div className="sa-image">
-                      <img src={Xanax} alt="Alcoholic Man" loading="lazy" />
+                      <img src={Xanax} alt="A depressed man addicted to Xanax" loading="lazy" />
                       <h1>Xanax Addiction</h1>
                     </div>
                     </Link>
