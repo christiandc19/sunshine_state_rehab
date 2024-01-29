@@ -16,6 +16,10 @@
     text-align: justify;
 }
 
+.mission-section-header h1 {
+    padding: .5rem 0;
+}
+
 .our-mission h1 {
     padding: .5rem 0;
 }

@@ -29,12 +29,6 @@
     padding: 1rem;
 }
 
-.about h2 {
-    color: white;
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .about h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
@@ -56,4 +50,13 @@
     font-size: 3rem;
     text-align: center;
 }
+
 }
+
+@media screen and (max-width:600px) {
+
+    .about {
+        height: 100vh;
+      }
+      
+  }

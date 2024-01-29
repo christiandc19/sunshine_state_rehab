@@ -3,7 +3,7 @@ import './AboutSection.css'
 import ContactForm from '../contact/ContactForm'
 import { BsCheckLg } from "react-icons/bs";
 
-import Mission from '../../assets/mission-img1.png'
+import Mission from '../../assets/mission-img1.webp'
 
 
 

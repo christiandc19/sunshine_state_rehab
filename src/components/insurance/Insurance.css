@@ -44,3 +44,11 @@
     font-size: 3rem;
 }
 }
+
+@media screen and (max-width:600px) {
+
+  .insurance {
+      height: 100vh;
+    }
+    
+}
